@@ -218,7 +218,7 @@ export default class CakeChart extends Component {
     return (
       <div key={key}
            className={ringSheet.classes['labels-' + block.level]}>{[
-        for (slice of block.slices)
+        for (slice of block.slices) 
           <div {...getLabelProps(
             slice, block.slices.indexOf(slice),
             getDefaultLabelProps(
